@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diski Socials FC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <script>
+    function toggleMenu() {
+        const navMenu = document.getElementById('navMenu');
+        const menuIcon = document.querySelector('.menu-icon');
+        const header = document.querySelector('header');
+        navMenu.classList.toggle('active');
+        menuIcon.classList.toggle('active');
+        header.classList.toggle('active');
+    }
+    </script>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.jfif" alt="Club Logo"></a>
+        </div>
+        <div>
+            <h3>Diski Socials</h3>
+            <h5>FC NPC</h5>
+        </div>
+        <br>
+        <!-- Hamburger Menu Icon -->
+        <div class="menu-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="navMenu" >
+            <ul>
+                <li><a href="#content-cards">Updates</a></li>
+                <li><a href="#fixtures">Fixtures</a></li>
+                <li><a href="#players">Players</a></li>
+                <li><a href="#merchandise">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#social-media">Follow</a></li>
+                <li><a href="#fan-zone">Join</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1 class="typing-effect">Welcome to Diski Socials FC</h1>
+                <p>Catch all the latest updates and fixtures</p>
+                <a href="#content-cards" class="hero-btn">Learn More</a>
+            </div>
+        </section>
+
+        <section class="content-cards" id="content-cards">
+            <h2>Updates</h2>
+            <div class="card-container">
+                <div class="card ">
+                    <img src="images/news1.jfif" alt="News 1">
+                    <div class="card-content">
+                        <h3>Diski Socials FC Botswana Tour</h3>
+                        <p>Posted On: 03 Aug, 2024</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/news2.jfif" alt="News 2">
+                    <div class="card-content">
+                        <h3>Player Attacked by Spectator</h3>
+                        <p>Posted On: 03 Sept, 2024</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/news3.jfif" alt="News 3">
+                    <div class="card-content">
+                        <h3>Player Injured After Tackle</h3>
+                        <p>Posted On: 09 Sept, 2024</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+           
+            
+        </section>
+        <section class="fixtures" id="fixtures">
+            <h2>Upcoming Fixtures</h2>
+            <div class="match">
+                <p class="teams"><strong>Diski Socials FC</strong> vs <strong>Orlando Pirates</strong></p>
+                <p class="match-details">Date: 25 Sep, 2024 | Time: 13:00 | Stadium: Soccer City</p>
+            </div>
+            <!-- Add more matches -->
+            <h2>Passed Matches</h2>
+            <div class="match">
+                <p class="teams"><strong>Diski Socials FC</strong> vs <strong>Mamelodi Sundowns</strong></p>
+                <p class="match-details">Date: 20 Sep, 2024 | Time: 10:00 | Stadium: Orlando Stadium</p>
+                <p class="match-time">Final Whistle: 90:00</p>
+                <p class="match-score">Score: <strong>3 - 2</strong></p>
+            </div>
+            <div class="match">
+                <p class="teams"><strong>Orlando Pirates</strong> vs <strong>Diski Socials FC</strong></p>
+                <p class="match-details">Date: 10 Sep, 2024 | Time: 17:00 | Stadium: Moses Mabhida</p>
+                <p class="match-time">Final Whistle: 90:00 +2</p>
+                <p class="match-score">Score: <strong>5 - 2</strong></p>
+            </div>
+            <!-- Add more matches -->
+        </section>
+        
+        <section class="players" id="players">
+            <h2>This Month's Top Players</h2>
+            <div class="player-card">
+                <img src="images/player2.jfif" alt="Player 1">
+                <h3>John Khumalo</h3>
+                <p>Position: Center-Mid</p>
+                <p>Tackles: 24</p>
+                <p>Assists: 8</p>
+                <a href="#">View Profile</a>
+            </div>
+            <div class="player-card">
+                <img src="images/player1.jfif" alt="Player 1">
+                <h3>Thabiso Sediba</h3>
+                <p>Position: Striker</p>
+                <p>Goals: 4</p>
+                <p>Assists: 8</p>
+                <a href="#">View Profile</a>
+            </div>
+            <div class="player-card">
+                <img src="images/player3.jfif" alt="Player 1">
+                <h3>Sabelo Mthethwa</h3>
+                <p>Position: GoalKeeper</p>
+                <p>Saves: 12</p>
+                <a href="#">View Profile</a>
+            </div>
+            <!-- Add more player cards -->
+        </section>
+        
+        <section class="fan-zone" id="fan-zone">
+            <h2>Fan Zone</h2>
+            <p>Join the official Diski Socials FC fan club for exclusive news, wallpapers, and more!</p>
+            <a href="join.html" class="btn">Join Now</a>
+        </section>
+        
+        <section class="merchandise" id="merchandise">
+            <h2>Official Merchandise</h2>
+            <div class="merch-item">
+                <img src="images/jersey.jfif" alt="Diski Socials FC Jersey">
+                <h3>2024/25 Home Jersey</h3>
+                <p>Price: R450.00</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <!-- Add more merchandise -->
+        </section>
+        
+        <section class="social-media" id="social-media">
+            <h2>Follow Us</h2>
+            <div class="social-links">
+                <a href="https://x.com/diski_socials?s=11&t=p6Z27mNkN9wtfL8zFt2D6Q" target="_blank"><img src="images/twitter-icon.png" alt="Twitter"></a>
+
+                <a href="https://www.instagram.com/diskisocialsfc?igsh=MXMzeWowbDJtZjgzbw==" target="_blank"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/share/hCVdsHua3tKcuHCK/?mibextid=LQQJ4d" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            </div>
+        </section>
+
+        <section class="history">
+            <h2>Club History</h2>
+            <p>Founded in 2002, Diski Socials FC has risen through the ranks to become one of the most recognized clubs in South African football.</p>
+            <h3>Achievements</h3>
+            <ul>
+                <li>League Champions - 2020</li>
+                <li>MTN 8 Winners - 2018</li>
+            </ul>
+        </section>
+
+        <section class="sponsors">
+            <h2>Our Sponsors</h2>
+            <div class="sponsor-logo">
+                <a href="#"><img src="images/sponsor1.png" alt="Sponsor 1"></a>
+            </div>
+            <div class="sponsor-logo">
+                <a href="#"><img src="images/sponsor2.jfif" alt="Sponsor 2"></a>
+            </div>
+            <div class="sponsor-logo">
+                <a href="#"><img src="images/sponsor3.png" alt="Sponsor 3"></a>
+            </div>
+            <!-- Add more sponsors -->
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Diski Socials FC. All rights reserved.<br>Designed by <a href="spacebarsolutions.co.za" target="_blank"><b>Spacebar Solutions</b></a></p>
+    </footer>
+</body>
+</html>

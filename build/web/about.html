@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+            <script src="script.js"></script>
+         <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+            }
+
+            h1, h2, h3 {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .container {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            /* Mission & Vision Section */
+            #mission-vision {
+                padding: 40px 20px;
+                background-color: #f4f4f4;
+            }
+
+            #mission-vision p {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+
+            /* Team Section */
+            #team {
+                padding: 40px 20px;
+                text-align: center;
+            }
+
+            .team-members {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+
+            .team-member {
+                width: 200px;
+                margin: 20px;
+            }
+
+            .team-member img {
+                width: 100%;
+                border-radius: 50%;
+                transition: transform 0.3s ease-in-out;
+            }
+
+            .team-member:hover img {
+                transform: scale(1.1); /* Increase size on hover */
+            }
+
+            .team-member h3 {
+                margin: 10px 0;
+            }
+
+            .contact-link{
+                text-decoration: none;
+                margin-bottom:  10px;
+                color: #66d7ff;
+            }
+            .contact-link:hover{
+                color: #66d7ff;
+                text-decoration: underline ;
+            }
+            
+
+            
+    </style>
+    </head>
+   
+    <body>
+        <header>
+        <div class="logo">
+            <img src="images/logo.jfif" alt="Club Logo">
+        </div>
+        <div>
+            <h3>Diski Socials</h3>
+            <h5>FC NPC</h5>
+        </div>
+        <br>
+        <!-- Hamburger Menu Icon -->
+        <div class="menu-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="navMenu" class="hidden">
+            <ul>
+                <li><a href="index.html#content-cards">Updates</a></li>
+                <li><a href="index.html#fixtures">Fixtures</a></li>
+                <li><a href="index.html#players">Players</a></li>
+                <li><a href="index.html#merchandise">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html#social-media">Follow</a></li>
+                <li><a href="index.html#fan-zone">Join</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+        <!-- Mission & Vision Section -->
+    <section id="mission-vision">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>Our mission is to Promote physical fitness: encourage regular physical activity and improve overall health and wellbeing among participants
+Foster social connections: build friendship, strengthen community ties, and create sense of belonging among team members
+Provide enjoyment and fun: create a relax and enjoyable environment where participant can unwind have fun through games of football.
+Encourage inclusivity: provide an opportunity for people of all skills levels and backgrounds to participate, ensuring everyone feels welcomed
+Stress relief and mental well-being: offer a healthy outlet for stress relief, contributing to a better mental health and a positive mindset.
+Charitable and community engagement: engage in community outreach, charity events or fundraising activities as part of the team’s social responsibility.
+</p>
+
+            <h2>Our Vision</h2>
+            <p>Improved physical health: regular participation leads to better fitness levels, increased stamina and overall health improvements among team members
+Stronger social bonds: team members form lasting friendships and strong sense of community, both on and off the field
+Positive mental health effects: reduces stress levels, and overall mental wellbeing due to fun and social nature of the activity.
+Sustained enjoyment: cautious enjoyment and satisfaction from playing football in a supportive and non-competitive environment, leading to long term participation.
+</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <h2>Meet the Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="images/member6.jfif" alt="Team Member 1">
+                    <h3>Pro Sebothoma</h3>
+                    <p>Chairperson</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/member3.jfif" alt="Team Member 2">
+                    <h3>Kabelo 'Mr P'</h3>
+                    <p>Disciplinary Committee Member</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/member1.jfif" alt="Team Member 3">
+                    <h3>Klaas Mavundlela</h3>
+                    <p>Vice Chair</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/member2.jfif" alt="Team Member 4">
+                    <h3>Omphile 'Kuks' </h3>
+                    <p>Vice Chair</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/member4.jfif" alt="Team Member 5">
+                    <h3>Sakubi 'Vejah' </h3>
+                    <p>Finance</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/member11.jfif" alt="Team Member 11">
+                    <h3>Vusi Sobekwa</h3>
+                    <p>Finance</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/member5.jfif" alt="Team Member 6">
+                    <h3>Onke 'Majoli' </h3>
+                    <p>Secretary</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/member7.jfif" alt="Team Member 7">
+                    <h3>Tumi</h3>
+                    <p>Team Officer</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/member8.jfif" alt="Team Member 8">
+                    <h3>Kamu</h3>
+                    <p>Team Officer</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/member9.jfif" alt="Team Member 9">
+                    <h3>Andile</h3>
+                    <p>DC</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/member10.jfif" alt="Team Member 10">
+                    <h3>Tshepo 'DoubleUp' Modiba</h3>
+                    <p>Team Captain</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/member12.jfif" alt="Team Member 12">
+                    <h3>Thandeka</h3>
+                    <p>Media Lady</p>
+                </div>
+                <!-- Add more team members as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    
+    <section class="social-media" id="social-media">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to <a class="contact-link" href="contact.html">reach out to us</a>.</p>
+            <div class="social-links">
+                <a href="https://x.com/diski_socials?s=11&t=p6Z27mNkN9wtfL8zFt2D6Q" target="_blank"><img src="images/twitter-icon.png" alt="Twitter"></a>
+
+                <a href="https://www.instagram.com/diskisocialsfc?igsh=MXMzeWowbDJtZjgzbw==" target="_blank"><img src="images/instagram-icon.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/share/hCVdsHua3tKcuHCK/?mibextid=LQQJ4d" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            </div>
+        </section>
+
+    <footer>
+        <p>&copy; 2024 Diski Socials FC. All rights reserved.<br>Designed by <a href="spacebarsolutions.co.za" target="_blank"><b>Spacebar Solutions</b></a></p>
+    </footer>
+    </body>
+</html>
